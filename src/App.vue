@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import viewPersonal from './views/viewPersonal.vue'
 </script>
 
@@ -72,6 +71,7 @@ import viewPersonal from './views/viewPersonal.vue'
 }
 
 h1{
+  font-weight: bolder;
   color: black;
 }
 
