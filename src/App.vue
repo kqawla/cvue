@@ -11,7 +11,7 @@ import viewPersonal from './views/viewPersonal.vue'
             <RouterLink to="/personal">Personal</RouterLink>  
           </li>  
           <li>  
-            <RouterLink to="/skill">Skill</RouterLink>  
+            <RouterLink to="/skill">Skills</RouterLink>  
           </li>
         </ul>
     </nav>
@@ -76,6 +76,7 @@ h1{
 }
 
 .card{
+  margin-top: -20px;
   width: 60rem;
   display: flex;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
