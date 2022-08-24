@@ -51,7 +51,8 @@ import viewPersonal from './views/viewPersonal.vue'
 .navbar ul li a{
   color: black;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px 15px;
 }
 
 .navbar ul li a:hover{
@@ -60,13 +61,13 @@ import viewPersonal from './views/viewPersonal.vue'
   border-radius: 30px;
   color: white;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
 }
 
 .container{
   position: relative;
   left: -5rem;
-  width: 85rem;
+  width: 85.15rem;
   height: 42rem;
 }
 

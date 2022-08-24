@@ -81,19 +81,17 @@
 
 .link-button a{
   text-decoration: none;
-  border: 1px solid black;
   border-radius: 20px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   font-weight: bold;
   padding: 5px 15px;
   font-size: 13px;
 }
 
 .link-button a:hover{
-  color: white;
-  background-color: black;
-  border-radius: 20px;
-  padding: 5px 15px;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 </style>
